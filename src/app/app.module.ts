@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CellularAutomataComponent } from './components/cellular-automata/cellular-automata.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CellularAutomataComponent
   ],
   imports: [
     BrowserModule,
